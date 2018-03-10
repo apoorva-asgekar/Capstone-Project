@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:labelFor="@+id/search_icons_container"
+        android:textColor="@color/textOnPrimary"
+        android:textSize="@dimen/widget_text_size"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/search_icons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/zoo"
+            android:layout_width="@dimen/widget_image_height_width"
+            android:layout_height="@dimen/widget_image_height_width"
+            android:src="@drawable/monkey"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/zoo"/>
+        <ImageView
+            android:id="@+id/museum"
+            android:layout_width="@dimen/widget_image_height_width"
+            android:layout_height="@dimen/widget_image_height_width"
+            android:src="@drawable/museum_icon"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/museum"/>
+        <ImageView
+            android:id="@+id/restaurant"
+            android:layout_width="@dimen/widget_image_height_width"
+            android:layout_height="@dimen/widget_image_height_width"
+            android:src="@drawable/restaurant_icon"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/restaurant"/>
+        <ImageView
+            android:id="@+id/beach"
+            android:layout_width="@dimen/widget_image_height_width"
+            android:layout_height="@dimen/widget_image_height_width"
+            android:src="@drawable/beach_icon"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/beach"/>
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="@dimen/widget_image_height_width"
+            android:layout_height="@dimen/widget_image_height_width"
+            android:src="@drawable/ic_search_black_48dp"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/search_title"/>
+
+    </LinearLayout>
+
+</LinearLayout>

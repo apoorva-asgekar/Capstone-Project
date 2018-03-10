@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"
+        android:contentDescription="@string/share"
+        android:focusable="true"/>
+    <item android:id="@+id/write_review"
+        android:title="@string/write_review"
+        app:showAsAction="never"
+        android:contentDescription="@string/write_review"
+        android:focusable="true"/>
+    <item android:id="@+id/favorite"
+        android:title="@string/favorite"
+        app:showAsAction="never"
+        android:focusable="true"/>
+</menu>

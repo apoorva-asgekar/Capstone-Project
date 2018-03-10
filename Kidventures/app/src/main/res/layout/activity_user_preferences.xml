@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/user_pref_heading_margin_vert"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/user_prefs_heading_padding"
+            android:text="@string/user_pref_heading"
+            android:textColor="@color/textOnAccent"
+            android:textSize="@dimen/user_pref_heading_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_profile_username_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_pref_title_height"
+            android:labelFor="@+id/edit_tv_username"
+            android:paddingStart="@dimen/user_prefs_heading_padding"
+            android:text="@string/profile_username_title"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/edit_tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/user_prefs_heading_padding"
+            android:layout_marginEnd="@dimen/user_prefs_heading_padding"
+            android:layout_marginStart="@dimen/user_prefs_heading_padding"
+            android:digits="@string/profile_username_allowed_digits"
+            android:focusable="true"
+            android:hint="@string/profile_username_hint"
+            android:inputType="text"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_profile_photo_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_pref_title_height"
+            android:labelFor="@+id/photoPickerButton"
+            android:paddingStart="@dimen/user_prefs_heading_padding"
+            android:text="@string/profile_photo_title"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/photoPickerButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="@dimen/photo_picker_margin_vert"
+            android:layout_marginStart="@dimen/user_prefs_heading_padding"
+            android:background="@android:drawable/ic_menu_gallery"
+            android:contentDescription="@string/pick_photo"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tv_child_age_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_pref_title_height"
+            android:labelFor="@+id/child_ages_container"
+            android:paddingStart="@dimen/user_prefs_heading_padding"
+            android:text="@string/child_age_title"
+            android:textColor="@android:color/black" />
+
+        <FrameLayout
+            android:id="@+id/child_ages_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/user_prefs_heading_padding">
+
+            <include layout="@layout/preference_child_ages" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/skipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/user_pref_button_margin"
+            android:focusable="true"
+            android:text="@string/skip_button_label"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/user_pref_button_margin"
+            android:focusable="true"
+            android:text="@string/save_prefs_button_label"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

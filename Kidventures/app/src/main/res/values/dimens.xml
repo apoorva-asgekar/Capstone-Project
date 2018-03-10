@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_logo_width">190dp</dimen>
+    <dimen name="app_logo_height">60dp</dimen>
+    <dimen name="error_msg_padding">8dp</dimen>
+    <dimen name="error_msg_textsize">16sp</dimen>
+    <dimen name="progress_bar_width">40dp</dimen>
+    <dimen name="progress_bar_height">40dp</dimen>
+    <dimen name="searchbar_height">45dp</dimen>
+    <dimen name="search_icon_height_width">36dp</dimen>
+    <dimen name="search_icon_margin_end">20dp</dimen>
+    <dimen name="searchview_horizontal_margin">16dp</dimen>
+    <dimen name="searchview_vertical_margin">8dp</dimen>
+    <dimen name="searchview_start_padding">10dp</dimen>
+    <dimen name="search_recyclerview_marginHorizontal">8dp</dimen>
+    <dimen name="user_prefs_heading_padding">10dp</dimen>
+    <dimen name="user_pref_heading_text_size">20sp</dimen>
+    <dimen name="user_pref_heading_margin_vert">10dp</dimen>
+    <dimen name="user_pref_title_height">22dp</dimen>
+    <dimen name="photo_picker_margin_vert">10dp</dimen>
+    <dimen name="user_pref_button_margin">10dp</dimen>
+    <dimen name="nav_header_height">80dp</dimen>
+    <dimen name="nav_header_image_width">40dp</dimen>
+    <dimen name="nav_header_image_height">40dp</dimen>
+    <dimen name="nav_header_vertical_spacing">10dp</dimen>
+    <dimen name="nav_header_horizontal_spacing">10dp</dimen>
+    <dimen name="user_profile_photo_height">200dp</dimen>
+    <dimen name="user_profile_name_textsize">20sp</dimen>
+    <dimen name="user_profile_vertical_padding">5dp</dimen>
+    <dimen name="user_profile_horz_padding">10dp</dimen>
+    <dimen name="user_profile_email_textsize">14sp</dimen>
+    <dimen name="user_profile_email_icon_size">22dp</dimen>
+    <dimen name="user_profile_pref_title_textsize">16sp</dimen>
+    <dimen name="user_profile_edit_button_top_margin">30dp</dimen>
+    <dimen name="user_profile_edit_button_start_margin">10dp</dimen>
+    <dimen name="search_results_text_padding">10dp</dimen>
+    <dimen name="search_results_name_textsize">14sp</dimen>
+    <dimen name="search_results_category_textsize">12sp</dimen>
+    <dimen name="search_results_distance_textsize">12sp</dimen>
+    <dimen name="searchresults_place_image_height">120dp</dimen>
+    <dimen name="searchresults_ratingbar_top_padding">3dp</dimen>
+    <dimen name="searchresults_ratingbar_bottom_padding">8dp</dimen>
+    <dimen name="searchresults_category_vert_padding">2dp</dimen>
+    <dimen name="place_detail_appbar_height">210dp</dimen>
+    <dimen name="place_detail_appbarlayout_elevation">4dp</dimen>
+    <dimen name="place_detail_toolbar_height">40dp</dimen>
+    <dimen name="detail_toolbar_name_vert_padding">2dp</dimen>
+    <dimen name="detail_toolbar_name_textsize">20sp</dimen>
+    <dimen name="place_info_ratings_right_padding">10dp</dimen>
+    <dimen name="place_detail_container_padding">10dp</dimen>
+    <dimen name="place_detail_map_desc_padding">5dp</dimen>
+    <dimen name="place_detail_title_textsize">16sp</dimen>
+    <dimen name="place_detail_ages_value_padding">5dp</dimen>
+    <dimen name="attr_vert_padding">2dp</dimen>
+    <dimen name="attr_horz_padding">3dp</dimen>
+    <dimen name="place_review_textsize">12sp</dimen>
+    <dimen name="place_review_padding">10dp</dimen>
+    <dimen name="place_review_content_padding">0dp</dimen>
+    <dimen name="place_review_author_textsize">12sp</dimen>
+    <dimen name="map_height">60dp</dimen>
+    <dimen name="review_external_padding">10dp</dimen>
+    <dimen name="review_comments_textsize">12sp</dimen>
+    <dimen name="error_length_width">100dp</dimen>
+    <dimen name="more_results_marginHorizontal">10dp</dimen>
+    <dimen name="more_results_marginVertical">4dp</dimen>
+    <dimen name="more_results_text_size">12sp</dimen>
+    <dimen name="widget_image_height_width">40dp</dimen>
+    <dimen name="widget_text_size">18sp</dimen>
+    <dimen name="more_results_padding">4dp</dimen>
+
+    <item name="rating_step_size" format="float" type="dimen">0.5</item>
+    <item name="rating_num_of_stars" format="integer" type="dimen">5</item>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

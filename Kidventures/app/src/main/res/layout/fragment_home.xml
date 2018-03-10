@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.kidventures.ui.HomeFragment">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="@dimen/app_logo_width"
+        android:layout_height="@dimen/app_logo_height"
+        android:src="@drawable/app_logo"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/search_view"
+        android:contentDescription="@null"
+        />
+
+    <RelativeLayout
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <EditText
+            android:id="@+id/search_query"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/searchbar_height"
+            android:layout_marginBottom="@dimen/searchview_vertical_margin"
+            android:layout_marginStart="@dimen/searchview_horizontal_margin"
+            android:layout_marginEnd="@dimen/searchview_horizontal_margin"
+            android:layout_marginTop="@dimen/searchview_vertical_margin"
+            android:paddingStart="@dimen/searchview_start_padding"
+            android:background="@drawable/search_box"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:inputType="text"
+            android:ellipsize="end"
+            android:focusable="true"
+            />
+        <ImageButton
+            android:id="@+id/search_icon"
+            android:layout_width="@dimen/search_icon_height_width"
+            android:layout_height="@dimen/search_icon_height_width"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_search_category_default"
+            android:scaleType="fitCenter"
+            android:background="@color/colorPrimary"
+            android:layout_marginEnd="@dimen/search_icon_margin_end"
+            android:contentDescription="@string/search_title"
+            android:focusable="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "167649902679",
+    "firebase_url": "https://kidventures-2018.firebaseio.com",
+    "project_id": "kidventures-2018",
+    "storage_bucket": "kidventures-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167649902679:android:80efc3f2af5e0a3a",
+        "android_client_info": {
+          "package_name": "com.example.android.kidventures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167649902679-ubbgobj68n2jl648oalnenfgul29hkde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.kidventures",
+            "certificate_hash": "ca1645bfcbb46e2e126cf45dba4082c3ace7f2d1"
+          }
+        },
+        {
+          "client_id": "167649902679-j9kpt73dmita3rlevin4v37rijgbqne8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0FJzZqZYFo7uqKY-CucJ8tSdN6e5MgoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167649902679-j9kpt73dmita3rlevin4v37rijgbqne8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

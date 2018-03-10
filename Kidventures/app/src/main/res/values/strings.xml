@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Kidventures</string>
+    <string name="error_message">Oops! Looks like we had an issue fetching your kidventures. Please try again!</string>
+    <string name="no_results_found">No results found!\nPlease try with a different search query.</string>
+    <string name="search_hint">Find new kidventures!</string>
+    <string name="search_title">Search</string>
+    <string name="query_null">Enter something to find your next kidventure.</string>
+    <string name="permission_rationale">Need current device location to provide search results in your vicinity.</string>
+    <string name="permission_denied_explanation">Permission to access exact device location has been denied. Cannot display search results without access to location.</string>
+    <string name="settings">Settings</string>
+    <string name="user_pref_heading">Tell us a little more about you!</string>
+    <string name="child_age_title">How old are your children?</string>
+    <string name="chk_age0_2">0 &#8211; 2 yrs</string>
+    <string name="chk_age2_5">2 &#8211; 5 yrs</string>
+    <string name="chk_age5_8">5 &#8211; 8 yrs</string>
+    <string name="chk_age8_12">8 &#8211; 12 yrs</string>
+    <string name="chk_age12plus">12+ yrs</string>
+    <string name="profile_photo_title">Would you like to upload a new profile picture?</string>
+    <string name="save_prefs_button_label">Save Preferences</string>
+    <string name="save_review_button_label">Save Review</string>
+    <string name="skip_button_label">Skip</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_favourites"> Favorite Kidventures</string>
+    <string name="nav_logout">Logout</string>
+    <string name="drawer_open">Open navgiation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="user_profile_prefs_title">Preferences</string>
+    <string name="profile_username_title">What would you like to be called?</string>
+    <string name="profile_username_hint">Username can contain only letters, digits, _ and -</string>
+    <string name="profile_username_allowed_digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqr‌​stuvwxyz0123456789_-</string>
+    <string name="user_profile_edit_prefs_button_txt"> Edit Preferences</string>
+    <string name="user_profile_saved">Your preferences were saved successfully!</string>
+    <string name="username_null_msg">Please enter a username before you proceed!</string>
+    <string name="logout_message">You have been logged out!</string>
+    <string name="place_detail_attr_title">Kiddie Atributes</string>
+    <string name="place_detail_ages_title">Recommended for ages</string>
+    <string name="attr_menu_label">Kid\'s Menu</string>
+    <string name="attr_bathrooms_label">Kid\'s Bathrooms/Changing Tables</string>
+    <string name="attr_equip_rental_label">Kid\'s Equipment Rental</string>
+    <string name="attr_programs_label">Kid\'s Events/Special Programs</string>
+    <string name="attr_play_area_label">Kid\'s Play Area</string>
+    <string name="place_detail_reviews_title">Reviews</string>
+    <string name="write_review">Write a Review</string>
+    <string name="favorite">Mark as Favorite</string>
+    <string name="remove_favorite">Remove from Favorites</string>
+    <string name="share">Share</string>
+    <string name="review_rating_compulsory">Rating should be at least 0.5 stars.</string>
+    <string name="review_attr_title">Does it have the following Kiddie Must-Haves?</string>
+    <string name="review_title">Review Comments</string>
+    <string name="review_attr_spinner_prompt">Select one</string>
+    <string name="review_child_age_title">Kids age recommendations</string>
+    <string name="kiddie_attr_tooltip">Green=Yes, Red=No, Orange=Not enough data to predict.</string>
+    <string name="save_favorite">Saved as Favorite!</string>
+    <string name="unsave_favorite">Removed from Favorites!</string>
+    <string name="share_intent_text">Found an awesome kid-friendly place I wanted to share with you - "</string>
+    <string name="share_using">Share using</string>
+    <string name="more_results">More results</string>
+    <string name="no_favorites">Currently you have no favorite kidventures saved.</string>
+    <string name="sign_in_message">Your are now signed in!</string>
+    <string name="sign_out_message">Signing out&#8230;</string>
+    <string name="appwidget_text">Find new kidventures</string>
+    <string name="widget_zoo_query">zoo</string>
+    <string name="widget_museum_query">museum</string>
+    <string name="widget_restaurant_query">restaurant</string>
+    <string name="widget_beach_query">beach</string>
+    <string name="provide_rating">Please provide a rating.</string>
+    <string name="review_comments_hint">Please provide thoughts and comments about kidventures you\'ve experienced here!</string>
+    <string name="pick_photo">Select a photo for upload</string>
+    <string name="place_image">Place photo</string>
+    <string name="favorite_desc">Favorite</string>
+    <string name="profile_photo">Profile photo</string>
+    <string name="email">Email address</string>
+    <string name="attributes_explanation">Indicates if each of the attributes is present(Green color), absent(Red color) or the information is not available(Orange color).</string>
+    <string name="zoo">Zoo</string>
+    <string name="museum">Museum</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="beach">Beach</string>
+    <string name="map_view">Map showing the exact location of the place.</string>
+    <string name="distance_with_miles">%s miles</string>
+    <string name="rating_explanation">place rating</string>
+    <string name="shared_photo">shared_photo</string>
+    <plurals name="num_of_reviews">
+        <item quantity="one">%d Review</item>
+        <item quantity="other">%d Reviews</item>
+    </plurals>
+
+    <string-array name="kiddie_attr_options">
+        <item>Unknown</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+</resources>

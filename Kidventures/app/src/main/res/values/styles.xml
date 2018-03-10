@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ToolbarColored" parent="AppTheme">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.Others" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SmallRatingBarIndicator" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.1</item>
+    </style>
+
+    <style name="ToolbarImage">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ToolbarName" parent="@style/TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingTop">@dimen/detail_toolbar_name_vert_padding</item>
+        <item name="android:paddingBottom">@dimen/detail_toolbar_name_vert_padding</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/detail_toolbar_name_textsize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="placeDetailAddressStyle" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="kiddieAttributesStyle" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">@dimen/attr_vert_padding</item>
+        <item name="android:paddingBottom">@dimen/attr_vert_padding</item>
+        <item name="android:paddingStart">@dimen/attr_horz_padding</item>
+        <item name="android:paddingEnd">@dimen/attr_horz_padding</item>
+    </style>
+
+    <style name="kiddieAttrLabelStyle" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingStart">2dp</item>
+    </style>
+
+    <style name="kiddieAttrValuesStyle" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="kiddieAttrSpinnerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:entries">@array/kiddie_attr_options</item>
+        <item name="android:prompt">@string/review_attr_spinner_prompt</item>
+    </style>
+
+    <style name="reviewHeadingsStyle">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:padding">@dimen/review_external_padding</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textColor">@color/textOnAccent</item>
+    </style>
+
+</resources>

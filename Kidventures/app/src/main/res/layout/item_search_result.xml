@@ -1,0 +1,81 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="2dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/place_imageview"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/searchresults_place_image_height"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_image_available"
+            android:contentDescription="@string/place_image"
+            android:transitionName="@string/shared_photo"/>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:paddingTop="@dimen/search_results_text_padding"
+            android:paddingBottom="@dimen/search_results_text_padding"
+            android:paddingLeft="@dimen/search_results_text_padding"
+            android:paddingRight="@dimen/search_results_text_padding">
+
+            <TextView
+                android:id="@+id/place_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textSize="@dimen/search_results_name_textsize"
+                android:maxLines="2"
+                android:layout_alignParentTop="true"/>
+
+            <RatingBar
+                android:id="@+id/place_rating"
+                android:layout_height="wrap_content"
+                style="@style/SmallRatingBarIndicator"
+                android:paddingTop="@dimen/searchresults_ratingbar_top_padding"
+                android:paddingBottom="@dimen/searchresults_ratingbar_bottom_padding"
+                android:layout_below="@+id/place_name"
+                android:contentDescription="@string/rating_explanation"/>
+
+            <TextView
+                android:id="@+id/place_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:paddingTop="@dimen/searchresults_category_vert_padding"
+                android:paddingBottom="@dimen/searchresults_category_vert_padding"
+                android:textSize="@dimen/search_results_category_textsize"
+                android:layout_above="@+id/place_distance"/>
+
+            <TextView
+                android:id="@+id/place_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="@dimen/search_results_distance_textsize"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

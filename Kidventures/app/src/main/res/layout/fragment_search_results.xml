@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/search_results_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:elevation="4dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_search_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="98"
+            android:layout_marginEnd="@dimen/search_recyclerview_marginHorizontal"
+            android:layout_marginStart="@dimen/search_recyclerview_marginHorizontal" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/search_results_more_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:cardCornerRadius="6dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            android:layout_marginEnd="@dimen/more_results_marginHorizontal"
+            android:layout_marginStart="@dimen/more_results_marginHorizontal"
+            android:layout_marginBottom="@dimen/more_results_marginHorizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/search_results_more_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/more_results_padding"
+                android:gravity="center"
+                android:text="@string/more_results"
+                android:textSize="@dimen/more_results_text_size"
+                android:textColor="@color/textOnAccent"
+                 />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/search_results_error_image"
+            android:layout_width="@dimen/error_length_width"
+            android:layout_height="@dimen/error_length_width"
+            android:scaleType="centerCrop"
+            android:src="@drawable/error"
+            android:visibility="invisible"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:id="@+id/search_results_error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/error_msg_padding"
+            android:text="@string/error_message"
+            android:textSize="@dimen/error_msg_textsize"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/search_results_loading_indicator"
+        android:layout_width="@dimen/progress_bar_width"
+        android:layout_height="@dimen/progress_bar_height"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</FrameLayout>

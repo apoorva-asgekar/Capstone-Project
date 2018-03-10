@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/age0_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onChildAgeSelected"
+            android:text="@string/chk_age0_2"
+            android:contentDescription="@string/chk_age0_2"
+            android:focusable="true"/>
+
+        <CheckBox
+            android:id="@+id/age2_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onChildAgeSelected"
+            android:text="@string/chk_age2_5"
+            android:contentDescription="@string/chk_age2_5"
+            android:focusable="true"/>
+
+        <CheckBox
+            android:id="@+id/age5_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onChildAgeSelected"
+            android:text="@string/chk_age5_8"
+            android:contentDescription="@string/chk_age5_8"
+            android:focusable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/age8_12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onChildAgeSelected"
+            android:text="@string/chk_age8_12"
+            android:contentDescription="@string/chk_age8_12"
+            android:focusable="true"/>
+
+        <CheckBox
+            android:id="@+id/age12plus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onChildAgeSelected"
+            android:text="@string/chk_age12plus"
+            android:contentDescription="@string/chk_age12plus"
+            android:focusable="true"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+</LinearLayout>
